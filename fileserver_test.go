@@ -7,6 +7,8 @@ import (
 	"testing"
 )
 
+// static
+
 func TestFileServer(t *testing.T) {
 	directory := http.Dir("./resources")
 

@@ -7,7 +7,9 @@ import (
 	"net/http"
 	"net/http/httptest"
 	"testing"
-	"text/template"
+
+	// "text/template" // ITS DIFFERENT BETWEENT TEXT AND HTML
+	"html/template" // ITS DIFFERENT BETWEENT TEXT AND HTML
 )
 
 //go:embed templates/*.gohtml
